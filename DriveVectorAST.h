@@ -3,26 +3,24 @@
 #ifndef DRIVEVECTORAST_H
 #define DRIVEVECTORAST_H
 
-#include "ATPast.h"
+
 #include <memory>
 #include <vector>
 #include <string>
+#include "VectorAST.h"
 
 class DriveVectorAST {
 public:
 DriveVectorAST();
-void push_vector(std::vector<std::string>);
-void push_operation(std::string);
-void push_operation_line(int);
-
-void read_vector();
-void read_operation();
-void read_operation_line();
+void push_vector_node(VectorAST);
 
 
-std::shared_ptr<std::vector<std::string>> operation_list;
-std::shared_ptr<std::vector<int>> operation_line;
-std::shared_ptr<std::vector<std::vector<std::string>>> vector_list;
+void read_vector_list();
+void read_operation_list();
+void read_vector_line_list();
+
+
+std::shared_ptr<std::vector<VectorAST>> vector_list;
 };
 
 #endif
