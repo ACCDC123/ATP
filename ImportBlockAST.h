@@ -11,8 +11,8 @@ class ImportBlockAST
 {
 public:
 ImportBlockAST();
-  void push_tset(std::string import);
-  void read_tset();
+  void push_tset(const std::string import);
+  void read_tset()const;
 
 
   std::shared_ptr<std::vector<std::string>> tset;

@@ -12,12 +12,12 @@
 class DriveVectorAST {
 public:
 DriveVectorAST();
-void push_vector_node(VectorAST);
+void push_vector_node(const VectorAST);
 
 
-void read_vector_list();
-void read_operation_list();
-void read_vector_line_list();
+void read_vector_list()const;
+void read_operation_list()const;
+void read_vector_line_list()const;
 
 
 std::shared_ptr<std::vector<VectorAST>> vector_list;

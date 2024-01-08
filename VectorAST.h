@@ -17,11 +17,11 @@ class VectorAST
 
     VectorAST();
     
-    void push_vector(std::vector<std::string>);
-    void read_vector();
-    void push_operation(std::string);
-    void read_operation();
-    void push_vector_line(int);
-    void read_vector_line();
+    void push_vector(const std::vector<std::string>);
+    void read_vector()const;
+    void push_operation(const std::string);
+    void read_operation()const;
+    void push_vector_line(const int);
+    void read_vector_line()const;
 };
 #endif
