@@ -2,11 +2,7 @@
 #ifndef VECTORAST_H
 #define VECTORAST_H
 
-#include <memory>
-#include <vector>
-#include <string>
-#include <fstream>
-#include <iostream>
+#include "ATPast.h"
 
 class VectorAST
 {public:

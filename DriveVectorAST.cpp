@@ -1,7 +1,6 @@
 #include "DriveVectorAST.h"
 #include "LoggerManager.h"
-
-#include <iostream>
+#include "VectorAST.h"
 
 DriveVectorAST::DriveVectorAST() : vector_list(std::make_shared<std::vector<VectorAST>>())
 {
@@ -30,4 +29,12 @@ void DriveVectorAST::read_operation_list() const
     {
         val.read_operation();
     }
+}
+
+void DriveVectorAST::read_vector_line() const
+{
+    auto logger = LoggerManager::getLogger();
+    int length=(*vector_list).size();
+    logger->info("This is the number of the vector:{}",std::to_string(length));
+    
 }

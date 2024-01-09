@@ -3,10 +3,7 @@
 #ifndef IMPORTBLOCKAST_H
 #define IMPORTBLOCKAST_H
 
-#include <memory>
-#include <vector>
-#include <string>
-
+#include "ATPast.h"
 class ImportBlockAST 
 {
 public:

@@ -2,9 +2,6 @@
 #define PINLISTAST_H
 
 #include "ATPast.h"
-#include <memory>
-#include <vector>
-#include <string>
 
 class PinListAST {
 public:
