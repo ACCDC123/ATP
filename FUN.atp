@@ -1,0 +1,27 @@
+//sdjnsaj
+//fhn
+import tset TSB0,stagta;
+
+vector($tset,  A1,  B1,  A2,  B2,  A3,  B3,  A4,  B4,  Y1,  Y2,  Y3,  Y4){
+//adasd
+//aa
+       START:   >TSB0  1    1     1      1     1     1     1     1    H    H     H    H; //absh
+    repeat 1200						
+                    > -          0    0     0      0     1     1     1     1    H    H     H    H;   
+                    > -          0    0     0      0     1     1     1     1    H    H     H    H;   
+                                        > TSB1          0    0     0      0     1     1     1     1    H    H     H    H;   
+                    > -          0    0     0      0     1     1     1     1    H    H     H    H;  
+                                        > TSB1          0    0     0      0     1     1     1     1    H    H     H    H;   
+                    > -          0    0     0      0     1     1     1     1    H    H     H    H;  
+                                        > -          0    0     0      0     1     1     1     1    H    H     H    H;   
+                    > -          0    0     0      0     1     1     1     1    H    H     H    H;  
+                                        > TSB2          0    0     0      0     1     1     1     1    H    H     H    H;   
+                    > TSB2          0    0     0      0     1     1     1     1    H    H     H    H;  
+                                        > -          0    0     0      0     1     1     1     1    H    H     H    H;   
+                    > -          0    0     0      0     1     1     1     1    H    H     H    H;  
+                                        > -          0    0     0      0     1     1     1     1    H    H     H    H;   
+                    > -          0    0     0      0     1     1     1     1    H    H     H    H;  
+                                        > -          0    0     0      0     1     1     1     1    H    H     H    H;   
+                    > TSB3          0    0     0      0     1     1     1     1    H    H     H    H;  
+                    
+} 

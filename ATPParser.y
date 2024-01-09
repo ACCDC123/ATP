@@ -42,7 +42,8 @@
 
 ATP : importblockAST vectorblockAST{
 
-      };
+      }
+	  |vectorblock R_BRACE;
 
 importblockAST : IMPORT TSET tsets SEMICOLON | ANNOTATION importblockAST | MULTI_LINE_ANNOTATION importblockAST;
 
@@ -104,6 +105,8 @@ vector : GREAT_THAN drives
     vectorast->push_vector_line(linenode);
     ATPhead->vector_block.drive_vector_node.push_vector_node(*vectorast);
     vectorast.reset(new VectorAST());
+	if(linenode%5==0)
+	YYABORT;
 }
 | START COLON GREAT_THAN drives
 {
